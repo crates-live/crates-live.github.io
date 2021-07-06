@@ -1,0 +1,78 @@
+<!DOCTYPE html><html class="has-navbar-fixed-top has-navbar-fixed-bottom" dir="ltr" lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="/_next/static/css/d14fa21574bead836bbc.css" as="style"/><link rel="stylesheet" href="/_next/static/css/d14fa21574bead836bbc.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-a54b4f32bdc1ef890ddd.js"></script><script src="/_next/static/chunks/webpack-9fc9ab40a062a7008df3.js" defer=""></script><script src="/_next/static/chunks/framework-2191d16384373197bc0a.js" defer=""></script><script src="/_next/static/chunks/main-588261c74baf7142d208.js" defer=""></script><script src="/_next/static/chunks/pages/_app-2658dd83e0466066c055.js" defer=""></script><script src="/_next/static/chunks/pages/modals/Terms-a20082f1f90fbf0de83c.js" defer=""></script><script src="/_next/static/7xdnPmv7U3-6julhQM6Ep/_buildManifest.js" defer=""></script><script src="/_next/static/7xdnPmv7U3-6julhQM6Ep/_ssgManifest.js" defer=""></script></head><body><div id="load"><div class="custom_loader">Loading...</div></div><script>
+document.onreadystatechange = function () {
+    var state = document.readyState
+    if (state == 'complete') {
+        document.getElementById('load').classList.add('fade');
+        setTimeout(function(){
+            document.getElementById('load').style.display="none";
+        },1000);
+    }
+}
+    </script><style type="text/css">
+#load {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    background-color: white;
+    opacity: 1;
+    transition: opacity 1s;
+}
+#load.fade {
+    opacity: 0;
+}
+
+.custom_loader {
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: helvetica, arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+    letter-spacing: 0.2em;
+}
+.custom_loader::before,
+    .custom_loader::after {
+        content: "";
+        display: block;
+        width: 15px;
+        height: 15px;
+        background: black;
+        position: absolute;
+        animation: custom_loading .7s infinite alternate ease-in-out;
+    }
+    .custom_loader::before {
+        top: 0;
+    }
+    .custom_loader::after {
+        bottom: 0;
+    }
+
+@keyframes custom_loading {
+    0% {
+        left: 0;
+        height: 30px;
+        width: 15px
+    }
+    50% {
+        height: 8px;
+        width: 40px
+    }
+    100% {
+        left: 235px;
+        height: 30px;
+        width: 15px
+    }
+}
+    </style><noscript><div id="noscript">This website requires JavaScript because it has interactive components. We do not have Google Analytics, Ads or any external JavaScript; and do not track our users.</div><style type="text/css">
+        #load {
+            display: none;
+        }
+        </style></noscript><div id="main-app"><div id="__next"><nav class="nav-header navbar is-fixed-top" role="navigation" aria-label="main navigation"><div class="navbar-brand logo header-logo"><a class="navbar-item" href="//crates.live"><img src="/images/logo.svg"/><h1>crates | live</h1></a><a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-navbar="headernav"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a></div><div class="navbar-menu" id="headernav"><div class="navbar-end"><a class="navbar-item open-modal" data-modal="about">Help</a><a class="navbar-item open-modal" data-modal="about">About</a></div></div></nav><a class="navbar-item open-modal" data-modal="about">Terms</a><div id="app-root"><div class="container content-search-container"><div class="content-search columns is-vcentered is-mobile is-multiline is-centered"><div class="column" style="min-width:66.66%"><div class="field"><div class="control has-icons-right is-large"><div role="combobox" aria-haspopup="listbox" aria-owns="react-autowhatever-1" aria-expanded="false" class="react-autosuggest__container"><input type="text" value="" autoComplete="off" aria-autocomplete="list" aria-controls="react-autowhatever-1" class="react-autosuggest__input" autoCapitalize="none" autoCorrect="off" placeholder="Type a crate name (e.g: rand)"/><div id="react-autowhatever-1" role="listbox" class="react-autosuggest__suggestions-container"></div></div></div></div></div><div class="column is-narrow"><div class="field has-addons has-addons-centered"><p class="control"><span class="select is-primary"><select disabled=""></select></span></p><p class="control"><button class="button is-primary" disabled="">Visualize</button></p></div></div></div><input type="checkbox" checked=""/> buildDep <br/><input type="checkbox" checked=""/> devDep <br/><input type="checkbox" checked=""/> OptionalDep <br/></div><div class="diag-window"><div class="graph-tools is-hidden-touch"><button><i class="fas fa-file-image"></i></button><button><i class="fas fa-expand"></i></button></div><div class="graph-container" style="top:0px;left:0px"><div class="graph-vizer" style="height:0;width:0;transform:scale(1,1)"><svg id="svg-container" xmlns="http://www.w3.org/2000/svg" height="0" width="0"><path id="connector" fill="none" stroke="black" stroke-width="10"></path></svg><div class="graph"><ul></ul></div></div></div></div><div id="popup-attach"></div></div><nav class="nav-footer navbar is-fixed-bottom" role="navigation" aria-label="main navigation"><div class="navbar-brand logo footer-logo"><a class="navbar-item" href="//crates.live"><img src="/images/logo.svg"/><h1>crates | live</h1></a><a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-navbar="footernav"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a></div><div class="navbar-menu" id="footernav"><div class="navbar-end"><a class="navbar-item open-modal" data-modal="about">Privacy Policy</a><a class="navbar-item open-modal" data-modal="about">Terms</a></div></div></nav></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/modals/Terms","query":{},"buildId":"7xdnPmv7U3-6julhQM6Ep","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script></div></body></html>
